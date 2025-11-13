@@ -4,19 +4,19 @@ num1 = int(input("Enter the first number:"))
 num2 = int(input("Enter the second number:"))
 
 
-operation_type = input("Choose the operation (+, -, *, /):")
+operation = input("Choose the operation (+, -, *, /):")
 
-match operation_type:
-    case n if n == "+":
+match operation:
+    case "+":
         result = num1 + num2
         
-    case n if n == "-":
+    case "-":
         result = num1 - num2
         
-    case n if n == "*":
+    case "*":
         result = num1 * num2
         
-    case n if n == "/":
+    case "/":
         if num2 == 0:
             print("Cannot divide by zero.")
             result = None
