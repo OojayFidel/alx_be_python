@@ -25,11 +25,11 @@ def main():
     try:
         # Instruction: Prompt the user to enter a temperature
         # We capture this as a string first, then try to convert to float
-        temp_input = input("Enter the temperature: ")
+        temp_input = input("Enter the temperature to convert:")
         temperature = float(temp_input)
 
         # Instruction: Specify whether it's in Celsius or Fahrenheit
-        unit = input("Is this Celsius or Fahrenheit? (Enter C or F): ").strip().upper()
+        unit = input("Is this temperature in Celsius or Fahrenheit? (C/F):").strip().upper()
 
         # Instruction: Based on input, call the appropriate function
         if unit == "C":
