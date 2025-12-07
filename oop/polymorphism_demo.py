@@ -1,5 +1,3 @@
-# You are tasked with creating a Python script named polymorphism_demo.py. In this script, define a base class Shape with a method area() and derived classes Rectangle and Circle, each overriding the area() method to calculate their respective areas.
-
 import math
 
 class Shape:
